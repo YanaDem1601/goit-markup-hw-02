@@ -19,23 +19,37 @@ a {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
 }
-.studio {
+.header-logo .logo-part {
   color: #2e2f42;
 }
 /*.nav-list {
   display: inline;
-}*/
+}
 .nav-item {
   display: inline;
-}
+}*/
 .nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-transform: capitalize;
-  font-family: "Roboto", sans-serif;
+  /*text-transform: capitalize;
   text-align: left;
-  padding: 40px;
+  padding: 40px;*/
+}
+.contacts {
+  font-style: normal;
+}
+.contacts-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
 }
